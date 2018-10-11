@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/6805ce92e54a6e7fb4a64fa935bc5fb67c41ccf6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_86009b200a7151eaaf6aee41132683b3c6f8e67a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/7ef9c496056fac2125a665bb3e2d8dbf8dd79604/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_10b3b9f5eb49123e70fbe3730f5c789be3ccb9c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/2abddb533ee3c74e904cd79531a3bd112e7d4980/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_106eb4f2fe7615dcd2bbb6f9e18681d15dd5fd00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1cb160a29bda69394d7aee676199613bf3c6fd12">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2bf2969329628709799526d9846bda4b4ef84526/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/aba7d93b7528d259b08783a71403727ecd4096d2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_33859487e46d103da42a99e6822fd07d55eb8ae4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_13af34afa82a3d26e555e6e0c5c8fdfbfe773538/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/5b979c4b6fa621d5354168225e53597041ec6520/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0f4057613bc36fa83ac1e1af9f8432c1d3e046a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/e8d9a9c959c636759906c3255df2a50a9a9d662a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1f2a7e9310391587785e6d43acd5d43eecb41260/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/8e2866d2a9c1338a724b8ee547972bb5a22ffb48/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2f697d7a8a9523a98ecf6e353184308f35daefe7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/9f22b82ccc07288b8b642d0bbb210d74a754ebc2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e929218e26f953ea8580f40b5032b768e629267/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_3dc8ee17b23aaad2bc3f007544d2c7a8e55f60a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/909e03ba767d6f8145290054934ac789deaf64b5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_654cd24d35ae0d06b903f4241c48b2e22dcbfdea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_ea824115deed6a3814d2db8019771257d237f7ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/.android/build-cache/888409552d29ad8c83e15aae766d49c5953300ba/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/amphibiawebAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ce7dc1a9f2b4b4d5c45eaac19a65dafce69516d6/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchList"
+    android:background="@color/colorBackground">
+
+    <Button
+        android:id="@+id/search_button"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/greenroundbuttons"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <Button
+        android:id="@+id/clear_button"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/redroundbutton"
+        android:text="Clear"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scientific Name:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genus:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vernacular Name:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Countries:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Spinner
+        android:id="@+id/scientific_name_spinner"
+        android:layout_width="79dp"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Spinner
+        android:id="@+id/genus_spinner"
+        android:layout_width="79dp"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Spinner
+        android:id="@+id/countries_spinner_2"
+        android:layout_width="104dp"
+        android:layout_height="28dp"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Spinner
+        android:id="@+id/family_spinner"
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <Spinner
+        android:id="@+id/order_spinner"
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Spinner
+        android:id="@+id/countries_spinner_1"
+        android:layout_width="99dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@+id/scientific_name_label"
+        android:layout_width="132dp"
+        android:layout_height="26dp"
+        android:text="Anaxyrus canorus"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/genus_label"
+        android:layout_width="132dp"
+        android:layout_height="26dp"
+        android:text="Anaxyrus"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/vernacular_name_label"
+        android:layout_width="132dp"
+        android:layout_height="26dp"
+        android:text="Yosemite Toad"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="191dp"
+        android:layout_height="26dp"
+        android:text="Include Synonymies in Search:"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="Show Photos:"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <Switch
+        android:id="@+id/synonymies_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Switch
+        android:id="@+id/photos_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+</android.support.constraint.ConstraintLayout>
