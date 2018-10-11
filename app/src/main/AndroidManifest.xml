@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".SearchList" />
-        <activity android:name=".aboutus"></activity>
+        <activity android:name=".aboutus" />
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
