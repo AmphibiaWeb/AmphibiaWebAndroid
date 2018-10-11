@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Avinash Nandakumar\Documents\amphibiaweb2\AmphibiaWebAndroid2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="0eadce4f07c9100994349f16cc0693211453205e">
-        <dex dex="C:\Users\Avinash Nandakumar\Documents\amphibiaweb2\AmphibiaWebAndroid2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_74f398d8bc5e5b8c1584e9908656225f382f1583\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Avinash Nandakumar\Documents\amphibiaweb2\AmphibiaWebAndroid2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/nsharma/Documents/AmphibiaWeb/AmphibiaWebAndroid2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\Avinash Nandakumar\Documents\amphibiaweb2\AmphibiaWebAndroid2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_08fba74a459476d804bd0b67bd95322aa7ea1a3b\classes.dex" />
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/AmphibiaWebAndroid2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fc4dc6699a212a82b6f5937d3f402e33b51d6bed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nsharma/Documents/AmphibiaWeb/AmphibiaWebAndroid2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e8d67db5998324904cd1ca65a9dc1e60b85da669">
+        <dex dex="/Users/nsharma/Documents/AmphibiaWeb/AmphibiaWebAndroid2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4ac0da25d52f7eb79b9644557b7c3570a8f0b57c/classes.dex" />
     </item>
 
 </items>
