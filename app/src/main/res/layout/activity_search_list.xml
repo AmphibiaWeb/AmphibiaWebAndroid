@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SearchList"
-    android:background="@color/colorBackground">
+    android:background="@color/colorBackground"
+    tools:context=".SearchList">
 
     <Button
         android:id="@+id/search_button"
@@ -15,10 +15,11 @@
         android:background="@drawable/greenroundbuttons"
         android:text="Search"
         android:textColor="@android:color/white"
-        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="416dp" />
+        app:layout_constraintTop_toBottomOf="@+id/photos_toggle" />
 
     <Button
         android:id="@+id/clear_button"
@@ -28,10 +29,11 @@
         android:background="@drawable/redroundbutton"
         android:text="Clear"
         android:textColor="@android:color/white"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="416dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <TextView
         android:id="@+id/textView"
@@ -39,8 +41,11 @@
         android:layout_height="wrap_content"
         android:text="Scientific Name:"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="28dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/scientific_name_spinner"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
@@ -48,8 +53,11 @@
         android:layout_height="wrap_content"
         android:text="Genus:"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="73dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/genus_spinner"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView5"
@@ -57,8 +65,11 @@
         android:layout_height="wrap_content"
         android:text="Vernacular Name:"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="116dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/vernacular_name_label"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView7"
@@ -66,8 +77,11 @@
         android:layout_height="wrap_content"
         android:text="Family:"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="157dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/family_spinner"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView9"
@@ -75,8 +89,11 @@
         android:layout_height="wrap_content"
         android:text="Order:"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="197dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toStartOf="@+id/order_spinner"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView11"
@@ -84,103 +101,145 @@
         android:layout_height="wrap_content"
         android:text="Countries:"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="234dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toStartOf="@+id/countries_spinner_1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <Spinner
         android:id="@+id/scientific_name_spinner"
         android:layout_width="79dp"
         android:layout_height="24dp"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="29dp" />
+        app:layout_constraintBottom_toTopOf="@+id/genus_label"
+        app:layout_constraintEnd_toStartOf="@+id/scientific_name_label"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/genus_spinner"
         android:layout_width="79dp"
         android:layout_height="24dp"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="73dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/genus_label"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Spinner
         android:id="@+id/countries_spinner_2"
         android:layout_width="104dp"
         android:layout_height="28dp"
-        tools:layout_editor_absoluteX="261dp"
-        tools:layout_editor_absoluteY="234dp" />
+        app:layout_constraintBottom_toTopOf="@+id/synonymies_toggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/countries_spinner_1"
+        app:layout_constraintTop_toBottomOf="@+id/order_spinner" />
 
     <Spinner
         android:id="@+id/family_spinner"
         android:layout_width="99dp"
         android:layout_height="25dp"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="157dp" />
+        app:layout_constraintBottom_toTopOf="@+id/order_spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/vernacular_name_label" />
 
     <Spinner
         android:id="@+id/order_spinner"
         android:layout_width="99dp"
         android:layout_height="25dp"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="197dp" />
+        app:layout_constraintBottom_toTopOf="@+id/countries_spinner_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/family_spinner" />
 
     <Spinner
         android:id="@+id/countries_spinner_1"
         android:layout_width="99dp"
         android:layout_height="0dp"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="236dp" />
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/countries_spinner_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/order_spinner" />
 
     <TextView
         android:id="@+id/scientific_name_label"
         android:layout_width="132dp"
         android:layout_height="26dp"
         android:text="Anaxyrus canorus"
-        tools:layout_editor_absoluteX="237dp"
-        tools:layout_editor_absoluteY="27dp" />
+        app:layout_constraintBottom_toTopOf="@+id/genus_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/scientific_name_spinner"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/genus_label"
         android:layout_width="132dp"
         android:layout_height="26dp"
         android:text="Anaxyrus"
-        tools:layout_editor_absoluteX="237dp"
-        tools:layout_editor_absoluteY="71dp" />
+        app:layout_constraintBottom_toTopOf="@+id/vernacular_name_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/genus_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/scientific_name_label" />
 
     <TextView
         android:id="@+id/vernacular_name_label"
         android:layout_width="132dp"
         android:layout_height="26dp"
         android:text="Yosemite Toad"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="116dp" />
+        app:layout_constraintBottom_toTopOf="@+id/family_spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/genus_label" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="191dp"
         android:layout_height="26dp"
         android:text="Include Synonymies in Search:"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="310dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toStartOf="@+id/synonymies_toggle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="105dp"
         android:layout_height="30dp"
         android:text="Show Photos:"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="353dp" />
+        app:layout_constraintBottom_toTopOf="@+id/clear_button"
+        app:layout_constraintEnd_toStartOf="@+id/photos_toggle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Switch
         android:id="@+id/synonymies_toggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="261dp"
-        tools:layout_editor_absoluteY="309dp" />
+        app:layout_constraintBottom_toTopOf="@+id/photos_toggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/countries_spinner_2" />
 
     <Switch
         android:id="@+id/photos_toggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="261dp"
-        tools:layout_editor_absoluteY="353dp" />
+        app:layout_constraintBottom_toTopOf="@+id/search_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/synonymies_toggle" />
 
 </android.support.constraint.ConstraintLayout>
