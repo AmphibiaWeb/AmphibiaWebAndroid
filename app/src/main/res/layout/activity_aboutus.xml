@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="amphibiawebandroid.amphibiaweb.aboutus"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="357dp"
+        android:layout_height="386dp"
+        android:text='AmphibiaWeb is an online system enabling any user to search and retrieve information relating to amphibian biology and conservation. This site was motivated by the global declines of amphibians, the study of which has been hindered by the lack of multidisplinary studies and a lack of coordination in monitoring, in field studies, and in lab studies. We hope AmphibiaWeb will encourage a shared vision to collaboratively face the challenge of global amphibian declines and the conservation of remaining amphibians and their habitats.  We have the ambitious goal of establishing a "home page" for every species of amphibian in the world. To accomplish this goal we encourage volunteers and specialists to help us prepare species accounts. If you have special interest in a particular species, please contact us.  AmphibiaWeb offers ready access to taxonomic information for every recognized species of amphibian in the world. Species accounts are being added regularly by specialists and volunteers and they contain species descriptions, life history information, conservation status, literature references, photos and range maps for many species. Some species have complete accounts; others as yet have only photographs or distributions. All species can be queried for taxonomic, distributional and exact specimen data. AmphibiaWeb offers a powerful mapping tool by combining museum specimen data (via VertNet) with expert opinion range maps (from IUCN and by the MVZ Informatics Lab) and overlaying these onto political, satellite, hybrid, or terrain base maps.  AmphibiaWeb currently (Apr 5, 2018) contains 7,842 species. We have 3,234 species accounts for 2,574 species, 7,122 literature references, 802 sound files, 120 video files, and 37,465 photos of 4,384 different amphibian species. These data come from numerous individuals--please see our acknowledgements page for information about our contributors.'
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:layout_constraintHorizontal_bias="0.518" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_marginTop="26dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintRight_toLeftOf="@+id/button2"
+        android:layout_marginRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="26dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintRight_toLeftOf="@+id/button3"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="39dp"
+        android:text="Button"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="26dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+</android.support.constraint.ConstraintLayout>

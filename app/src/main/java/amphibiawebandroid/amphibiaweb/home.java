@@ -28,5 +28,14 @@ public class home extends AppCompatActivity {
             }
         });
 
+        contactButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toAboutUs = new Intent(home.this, aboutus.class);
+                startActivity(toAboutUs);
+            }
+        });
+
     }
+
 }
