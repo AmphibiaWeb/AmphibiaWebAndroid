@@ -28,6 +28,14 @@ public class home extends AppCompatActivity {
             }
         });
 
+        treesearchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toTreeSearch = new Intent(home.this, TreeList.class);
+                startActivity(toTreeSearch);
+            }
+        });
+
         contactButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
